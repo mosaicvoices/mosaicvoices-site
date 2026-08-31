@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mosaic Voices — Prototype</title>
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg?v=20260831" />
+  <link rel="stylesheet" href="styles.css?v=20260831-5" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <button class="nav-close" aria-label="Close navigation"></button>
+      <nav class="nav" aria-label="Main">
+        <a href="index.html">home</a>
+        <a href="about.html">about</a>
+        <a href="how-it-works.html">how it works</a>
+        <!-- <a href="themes.html">themes</a>
+        <a href="workshops.html">workshops</a>
+        <a href="impact.html">impact</a> -->
+        <a href="gallery.html">gallery</a>
+        <a href="get-involved.html">get involved</a>
+      </nav>
+      <div class="logo">
+        <img src="assets/logo.svg" alt="Mosaic Voices" class="logo-image" />
+      </div>
+    </aside>
+    <button class="nav-open" aria-label="Open navigation">☰</button>
+
+    <main class="panels" role="main">
+      <header class="page-header" id="top">
+        <img src="assets/mosaic-pattern.svg" alt="" class="page-header-image" />
+        <div class="page-header-copy">
+          <h1 class="page-title">MOSAIC VOICES</h1>
+          <p class="page-subtitle">SMALL VOICES. BIG IMPACT.</p>
+        </div>
+      </header>
+      <section class="page-body" aria-label="Mosaic Voices overview">
+        <div class="intro-band" id="about">
+          <p>
+            Mosaic Voices is a youth-led art and storytelling initiative that gives young people,
+            especially newcomer, second-generation, and underrepresented youth, a space to explore
+            and share their stories through creative expression. Participants create personalized
+            art panels inspired by their own experiences and can share these stories behind them
+            through written, audio, or video reflections. Each panel then becomes part of a
+            collective mosaic display at FiddleSticks Community Centre, bringing different stories
+            together in one shared space.
+          </p>
+        </div>
+        <div class="page-actions" aria-label="Primary actions">
+          <a class="action-button" href="gallery.html">explore the gallery</a>
+          <a class="action-button" href="get-involved.html">interested?</a>
+          <a class="action-button" href="get-involved.html">join workshop?</a>
+        </div>
+        <details class="about-dropdown-block">
+          <summary class="about-dropdown-toggle" id="about-support-title">
+            <span>what we do</span>
+            <span class="about-dropdown-arrow" aria-hidden="true"></span>
+          </summary>
+          <div class="about-dropdown-panel">
+            <ul>
+              <li>Youth create story-based art panels.</li>
+              <li>Panels are displayed behind a large acrylic cover at our community center.</li>
+              <li>QR codes link each panel to audio, video, or written stories.</li>
+              <li>Themes rotate monthly to keep the display fresh and meaningful.</li>
+            </ul>
+          </div>
+        </details>
+        <footer class="site-footer">Mosaic Voices 2026 &copy; Partnered with Fiddlesticks Community Center</footer>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js?v=20260830"></script>
+</body>
+</html>
